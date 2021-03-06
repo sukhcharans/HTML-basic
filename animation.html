@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        @keyframes demo {
+            form{
+                background-color: red;
+                top: 0px;
+                left: 0px;
+
+            }
+            to{
+                background-color: yellow;
+                top: 0px;
+                left: 200px;
+            }
+        }
+        .animation{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            animation: demo;
+            background-color: red;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: ease;
+            animation-fill-mode: forwards;
+        }
+        div{
+            height: 200px;
+            width: 100px;
+            background: chartreuse;
+            transition: width 100ms,height 100ms, transform 100ms;
+            transition-delay: 1s;
+            transition-duration: 200ms;
+        }
+        div:hover{
+            height: 400px;
+            width: 400px;
+            transform: rotate(360deg);
+        }
+    </style>
+    <title>Animations</title>
+</head>
+<body>
+    <div class="animation"></div>
+    <div></div>
+</body>
+</html>

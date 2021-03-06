@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML Forms
+        </title>
+    </head>
+    <body>
+        <form>
+            <label for="fname">First Name : </label>
+
+            <input type="text" id="fname" name="fname" placeholder="sukhcharan"><br><br>
+            <label for="lname">Last Name : </label>
+
+            <input type="text" id="lname" name="lname" placeholder="singh"> <br><br>
+            <input type="submit" value="Submit"><br><br>
+
+            <input type="text" name="text" id="text" readonly>
+            <label for="text">Not Editable</label>
+            <br><br>
+
+            <input type="button" id="button1" name="button1">
+            <label for="button1">This is Button</label><br><br>
+
+            <input type="checkbox" id="checkbox1" name="checkbox1" checked>
+            <label for="checkbox1">This is checkbox</label><br><br>
+
+            <input type="color" name="color" id="color">
+            <label for="color">This is color</label><br><br>
+
+            <input type="date" name="date" id="date">
+            <label for="date">This is date</label><br><br>
+
+            <input type="datetime-local" name="datetime" id="datetime" required>
+            <label for="datetime">This is date time</label><br><br>
+
+            <input type="email" id="email" name="email" maxlength="10">
+            <label for="email">This is email</label><br><br>
+
+            <input type="file" name="file" id="file" accept="application/pdf">
+            <label for="file">Choose file</label><br><br>
+
+            <input type="hidden" name="hidden" id="hidden">
+            <label for="hidden">This is hidden</label><br><br>
+
+            <input type="image" name="img" id="img" src="/home/sukhcharans/Downloads/button.jpeg" alt="Button image" width="60" height="30" formaction="https://www.google.com">
+            <label for="img">This is button with image</label><br><br>
+
+            <input type="number" name="number" id="number" max="10" min="2">
+            <label for="number">This is number</label><br><br>
+
+            <input type="password" name="pass" id="pass">
+            <label for="pass">This is password feild</label><br><br>
+
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">This is radio</label><br><br>
+
+            <input type="range" name="range" id="range">
+            <label for="range">This is range</label><br><br>
+
+            <input type="reset" name="reset" id="reset">
+            <label for="reset">This is reset</label><br><br>
+
+            <input type="search" name="search" id="search">
+            <label for="search">This is search</label><br><br>
+
+            <input type="tel" name="tel" id="tel" size="100">
+            <label for="tel">This is Telephone</label><br><br>
+
+            <label for="data">Choose From list</label>
+            <input list="datalist" id="data" name="data">
+                <datalist id="datalist">
+                <option value="first"></option>
+                <option value="Second"></option>
+                <option value="Third"></option>
+                <option value="Fourth"></option>
+            </datalist>
+
+
+
+
+        </form>
+    </body>
+</html>

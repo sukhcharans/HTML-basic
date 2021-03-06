@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HTML Video and Audio
+        </title>
+    </head>
+    <body>
+        <div>
+            <object data="/home/sukhcharans/Downloads/NOC.pdf" 
+            typemustmatch
+            type="application/pdf" width="600" height="800"></object>
+        </div>
+        <div>
+            <iframe 
+            src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            frameborder="2px"
+            height="400px"
+            allowfullscreen
+            width="500px"></iframe>
+        </div>
+        <div>
+            <audio controls preload="none" currentTime src="/home/sukhcharans/Downloads/audio_only_2_Appraisal Policy .mp3"></audio>
+        </div>
+       
+        <div>
+            <video controls controlslist="nofullscreen" 
+                disablePictureInPicture 
+                currentTime 
+                loop 
+                disableRemotePlayback
+                muted 
+                poster="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png"
+                preload="metadata">
+                <source src="/home/sukhcharans/Downloads/sample.mp4" type="video/mp4">    
+            </video>
+        </div>
+        
+
+        <video src="/home/sukhcharans/Downloads/sample.mp4">
+        </video>
+    </body>
+</html>
